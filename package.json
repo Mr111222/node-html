@@ -1,0 +1,25 @@
+{
+  "name": "html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "phantomjs": "node_modules/.bin/phantomjs",
+    "dev":"node main",
+    "build": "node build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "phantomjs": "^2.1.7+deprecated",
+    "autoprefixer": "^9.6.4",
+    "node-sass": "^4.12.0",
+    "postcss": "^7.0.18",
+    "uglify-js": "^3.7.3"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.2",
+    "phantom": "^6.3.0"
+  }
+}
